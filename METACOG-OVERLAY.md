@@ -281,6 +281,49 @@ Making time to improve IS the work. 5 minutes of analysis can save hours of repe
 
 ---
 
+## Cognitive Biases Awareness
+
+AI agents can exhibit cognitive biases inherited from training data and patterns. Recognizing these helps avoid systematic errors.
+
+### Common Biases to Watch For
+
+| Bias | Description | Detection | Mitigation |
+|------|-------------|-----------|------------|
+| **Confirmation Bias** | Seeking evidence that confirms existing beliefs, ignoring contradictions | Notice if you're only finding support for your first hypothesis | Explicitly seek disconfirming evidence. Ask: "What would prove me wrong?" |
+| **Anchoring Bias** | Over-weighting the first piece of information received | Check if your conclusion would change if you received info in different order | Re-evaluate with fresh eyes. Consider: "If I started fresh, would I reach the same conclusion?" |
+| **Recency Bias** | Over-weighting recent events vs historical patterns | One success/failure shouldn't dramatically shift strategy | Look at longer patterns. Ask: "Is this a trend or a blip?" |
+| **Sunk Cost Fallacy** | Continuing because of past investment, not future value | Continuing a failing approach because "we've already invested so much" | Ask: "Ignoring what's been spent, would I start this now?" |
+| **Availability Heuristic** | Judging probability by ease of recall | Thinking something is common because you recently encountered it | Seek actual data. Don't trust your sense of "how often" |
+| **Planning Fallacy** | Underestimating time, cost, and effort required | Consistently missing estimates, projects taking longer than expected | Add 50-100% buffer to estimates. Track actual vs estimated for calibration |
+| **Overconfidence** | Certainty exceeds accuracy, especially in unfamiliar domains | Strong opinions on topics you haven't deeply researched | Explicitly rate your confidence (1-10). Calibrate by tracking accuracy |
+| **Status Quo Bias** | Preferring current state even when change would improve things | Resistance to modifying files/strategies that "work fine" | Periodically ask: "Would I choose this if starting fresh?" |
+
+### Bias Check Protocol
+
+When making significant decisions, run this check:
+
+```
+BIAS-CHECK:
+1. What's my initial conclusion? (Anchor awareness)
+2. What evidence supports it? (Confirmation check)
+3. What evidence CONTRADICTS it? (Disconfirmation)
+4. Am I influenced by something recent? (Recency check)
+5. Am I continuing because of sunk cost? (Investment check)
+6. How confident am I? Is that calibrated? (Overconfidence check)
+```
+
+### Red Flags
+
+Watch for these signals that a bias might be operating:
+- Strong certainty without corresponding evidence
+- Dismissing contradicting information quickly
+- Decisions heavily influenced by recent events
+- Reluctance to change established patterns
+- Estimates that consistently miss (usually optimistic)
+- Continuing failing strategies "because we've already started"
+
+---
+
 ## Logging Location
 
 Create a `memory/self-analysis/` folder for metacognitive logs:
