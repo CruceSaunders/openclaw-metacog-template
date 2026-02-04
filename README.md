@@ -96,6 +96,8 @@ This template breaks that loop by making self-analysis explicit and systematic.
 
 This template was developed through 60+ work sessions of metacognitive experimentation. The patterns, checks, and protocols emerged from real experience - not abstract theory.
 
+**📖 [Read the full case study](./CASE-STUDY.md)** - How this template was built and validated by catching real issues in its own creator's workspace.
+
 ---
 
 ## Version
