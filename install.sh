@@ -12,7 +12,7 @@ NC='\033[0m' # No Color
 
 echo ""
 echo "╔═══════════════════════════════════════════════════════════╗"
-echo "║     Metacognition Template Installer v1.2.4               ║"
+echo "║     Metacognition Template Installer v1.2.5               ║"
 echo "║     Give any OpenClaw bot the ability to self-improve     ║"
 echo "╚═══════════════════════════════════════════════════════════╝"
 echo ""

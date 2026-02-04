@@ -170,10 +170,9 @@ Without the file audit checklist, these inconsistencies would have persisted ind
 ### Quick Start
 
 ```bash
-# Download and install
-curl -L https://github.com/CruceSaunders/openclaw-metacog-template/releases/download/v1.2.4/metacog-template-v1.2.4.zip -o metacog-template.zip
-unzip metacog-template.zip
-cd metacog-template-v1.2.4
+# Clone and install (always gets latest)
+git clone https://github.com/CruceSaunders/openclaw-metacog-template.git
+cd openclaw-metacog-template
 ./install.sh /path/to/your/workspace
 ```
 
@@ -196,7 +195,9 @@ See [INTEGRATION-GUIDE.md](./INTEGRATION-GUIDE.md) for step-by-step instructions
 
 **GitHub:** https://github.com/CruceSaunders/openclaw-metacog-template
 
-**Release:** https://github.com/CruceSaunders/openclaw-metacog-template/releases/tag/v1.2.4
+**Releases:** https://github.com/CruceSaunders/openclaw-metacog-template/releases
+
+*Note: This case study was written during v1.2.4 development. The template has continued to evolve. Check releases for the latest version.*
 
 ---
 
